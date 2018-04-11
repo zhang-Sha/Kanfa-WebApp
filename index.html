@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1,minimum-scale=1">
+	<title>live</title>
+</head>
+<body>
+	<div id="app">
+		<!-- 直播页 -->
+		<div class="alive_page">
+			<div class="head">直播</div>
+			<!-- 轮播图视图 -->
+			<div class="c-view">
+				<div class="acrousel_view" id="carousel">
+					<ul class="bd clear">
+					</ul>
+				</div>
+			</div>
+			<!-- 直播视图 -->
+			<div class="alive_view">
+				<!-- <div class="view_box">
+					<div class="title clear">
+						<h2><%=type%></h2>
+						<span class="sub"><%=subtitle%></span>
+						<span class="arror right"><span class="arror white"></span></span>
+					</div>
+					<ul class="cont clear">
+						/*<li class="left">
+							<div class="img">
+								<img src="<%=url%>" alt="">
+								<span class="sign">直播中</span>
+							</div>
+							<p class="name"><%=title%></p>
+							<p class="court"><%=court_name%></p>
+						</li>*/
+					</ul>
+				</div> -->
+			</div>
+		</div>
+		<!-- 列表页 -->
+		<div class="alive_list_page">
+			<div class="head">
+				<span class="arror left back">
+					<span class="arror white"></span>
+				</span>
+				直播大厅
+			</div>
+			<ul class="nav clear">
+				<li class="on" id="all">全部</li>
+				<li id="now">正在直播</li>
+				<li id="review">经典回顾</li>
+			</ul>
+			<ul class="list_cont">
+				<!-- <li class="left">
+					<div class="img">
+						<img src="img/03.jpg" alt="">
+						<span class="sign">直播中</span>
+					</div>
+					<p class="name">回答US大跌ua</p>
+					<p class="court">阿深度啥都看i</p>
+				</li> -->
+			</ul>
+		</div>
+	</div>
+</body>
+<script type="text/template" id="tpl2">
+<div class="view_box">
+	<div class="title clear">
+		<a href="<%=href%>">
+		<h2><%=type%></h2>
+		<span class="sub"><%=subtitle%></span>
+		<span class="arror right"><span class="arror white"></span></span>
+		</a>
+	</div>
+	<ul class="cont clear">
+		<%=list_cont%>
+	</ul>
+</div>
+</body>
+</script>
+<script data-main="js/main.js" src="js/lib/require.js"></script>
+</html>

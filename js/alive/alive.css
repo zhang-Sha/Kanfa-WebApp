@@ -1,0 +1,35 @@
+*{box-sizing:border-box;color:#000;}
+#app .head{height:40px;line-height:40px;text-align: center;font-weight:bold;position:fixed;left:0;top:0;width:100%;background:#fbfbfb;z-index:9;}
+/*focus*/
+.acrousel_view{width:100%;height:200px;margin-top:40px;overflow: hidden;position:relative;}
+.acrousel_view ul{width:500%;height:100%;}
+.acrousel_view .bd{height:200px;}
+.acrousel_view ul li{float:left;width:20%;height:100%;position:relative;}
+.acrousel_view ul li img{width:100%;max-height:100%;min-height:100%;max-width:100%;vertical-align:middle;}
+.acrousel_view ul li p{position:absolute;left:20px;bottom:20px;width:90%;color:#fff;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+/* alive_view正在直播 */
+.alive_view .view_box{border-top:5px solid #efefef;border-bottom:1px solid #efefef;}
+.alive_view .title{height:40px;line-height:40px;}
+.alive_view .title a{display:block;width:100%;height:100%;}
+.alive_view .title h2{font-size:16px;margin-right:20px;float:left;padding-left:10px;}
+.alive_view .title .sub{color:red;font-size:12px;float:left;opacity:.8;}
+.alive_view .title	.arror{border:8px solid transparent;border-left-color:#666;position:relative;margin-top:12px;}
+.alive_view .title	.arror .white{position:absolute;left:-10px;top:-20px;border-left-color:#fff;}
+.alive_view .cont li{width:50%;margin-bottom:10px;}
+.alive_view .cont li:nth-child(2n){padding-left:2px;}
+.alive_view .cont li:nth-child(2n-1){padding-right:2px;}
+.alive_view .cont li .img{height:100px;line-height:100px;width:100%;position:relative;text-align: center;}
+.alive_view .cont li .img img{width:100%;max-height:100px;}
+.alive_view .cont li .sign{position:absolute;right:0;top:0;line-height:auto;padding:0px 4px;background:rgba(255,0,0,.8);color:#fff;font-size:10px;height:18px;line-height: 18px;}
+.alive_view .cont li .sign2{background:rgba(0,0,0,.8);}
+.alive_view .cont li p{padding-left:10px;}
+.alive_view .cont li .name{font-size:14px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.alive_view .cont li .court{color:#666;font-size:12px;}
+
+
+
+
+
+
+
+
